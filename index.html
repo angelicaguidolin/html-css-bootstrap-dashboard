@@ -22,24 +22,18 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Catalogo libri</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Anagrafica Utente</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">
+                      Storico Prestiti
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
+                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link disabled" aria-disabled="true">Help</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -53,16 +47,20 @@
     </header>
     <main>
         <div class="container">
-          <h1 class=" mt-5 text-start">Catalogo Libri</h1>
-          <div class="d-flex justify-content-end">
-          <button type="button" class="btn btn-primary">Aggiungi Libro</button>
-          </div>  
+          <div class="d-flex mt-5 justify-content-between">
+          <h1 >Catalogo Libri</h1>
+          <a class="btn btn-primary" href="./index_2.html"> Aggiungi Libro</a>
+        
         </div>
+          
+        
+        </div>
+        <div class="container">
         <table class="table table-striped">
             <thead>
                 <tr>
                   <th scope="col">Titolo</th>
-                  <th scope="col d-none d-md-block">Data prestito</th>
+                  <th scope="col">Data prestito</th>
                   <th scope="col">Stato</th>
                   <th scope="col">azioni</th>
                 </tr>
@@ -71,77 +69,78 @@
                 <tr>
                   <td>I Pilastri della terra</td>
                   <td>-</td>
-                  <td><button type="button" class="btn btn-success">Disponibile</button></td>
+                  <td><button type="button" class="btn btn-success btn-sm">Disponibile</button></td>
                   <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                   <td>I promessi sposi</td>
                   <td>-</td>
-                  <td><button type="button" class="btn btn-success">Disponibile</button></td>
+                  <td><button type="button" class="btn btn-success btn-sm">Disponibile</button></td>
                   <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>Il signore degli anelli</td>
                     <td>18/10/2023</td>
-                    <td><button type="button" class="btn btn-warning text-white">In prestito</button></td>
+                    <td><button type="button" class="btn btn-warning text-white btn-sm">In prestito</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>Harry Potter e la pietra Filosofale</td>
                     <td>-</td>
-                    <td><button type="button" class="btn btn-success text-white">Disponibile</button></td>
+                    <td><button type="button" class="btn btn-success text-white btn-sm">Disponibile</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>Il codice Da Vinci</td>
                     <td>-</td>
-                    <td><button type="button" class="btn btn-danger text-white">Non disponibile</button></td>
+                    <td><button type="button" class="btn btn-danger text-white btn-sm">Non disponibile</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>Shining</td>
                     <td>-</td>
-                    <td><button type="button" class="btn btn-success text-white">Disponibile</button></td>
+                    <td><button type="button" class="btn btn-success text-white btn-sm">Disponibile</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>La Divina Commedia</td>
                     <td>21/09/2023</td>
-                    <td><button type="button" class="btn btn-warning text-white">In prestito</button></td>
+                    <td><button type="button" class="btn btn-warning text-white btn-sm">In prestito</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>Il trono di spade</td>
                     <td>-</td>
-                    <td><button type="button" class="btn btn-success text-white">Disponibile</button></td>
+                    <td><button type="button" class="btn btn-success text-white btn-sm">Disponibile</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>Il mondo di Sofia</td>
                     <td>-</td>
-                    <td><button type="button" class="btn btn-danger text-white">Non disponibile</button></td>
+                    <td><button type="button" class="btn btn-danger text-white btn-sm">Non disponibile</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
                     <td>25/07/2023</td>
-                    <td><button type="button" class="btn btn-warning text-white">In prestito</button></td>
+                    <td><button type="button" class="btn btn-warning text-white btn-sm">In prestito</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>Il piccolo principe </td>
                     <td>-</td>
-                    <td><button type="button" class="btn btn-success text-white">Disponibile</button></td>
+                    <td><button type="button" class="btn btn-success text-white btn-sm">Disponibile</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
                 <tr>
                     <td>La storia infinita</td>
                     <td>-</td>
-                    <td><button type="button" class="btn btn-success text-white">Disponibile</button></td>
+                    <td><button type="button" class="btn btn-success text-white btn-sm">Disponibile</button></td>
                     <td><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button><button type="button" class="btn btn-outline-secondary"><i class="fa-regular fa-trash"></i></button></td>
                 </tr>
               </tbody>
           </table>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
